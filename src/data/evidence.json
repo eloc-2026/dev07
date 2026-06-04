@@ -1,0 +1,84 @@
+{
+  "types": {
+    "fingerprint": {
+      "name": "Fingerprint",
+      "description": "Latent fingerprint evidence",
+      "analysisTime": 30,
+      "department": "forensics",
+      "reliability": 90
+    },
+    "dna": {
+      "name": "DNA Sample",
+      "description": "Biological material for DNA analysis",
+      "analysisTime": 120,
+      "department": "forensics",
+      "reliability": 95
+    },
+    "digital": {
+      "name": "Digital Evidence",
+      "description": "Electronic data from computers or devices",
+      "analysisTime": 60,
+      "department": "cybercrime",
+      "reliability": 85
+    },
+    "weapon": {
+      "name": "Weapon",
+      "description": "Physical weapon used in crime",
+      "analysisTime": 45,
+      "department": "forensics",
+      "reliability": 80
+    },
+    "document": {
+      "name": "Document",
+      "description": "Written or printed material",
+      "analysisTime": 20,
+      "department": "detective",
+      "reliability": 75
+    },
+    "witness_statement": {
+      "name": "Witness Statement",
+      "description": "Testimony from witness",
+      "analysisTime": 15,
+      "department": "detective",
+      "reliability": 60
+    },
+    "photo": {
+      "name": "Photograph",
+      "description": "Photographic evidence",
+      "analysisTime": 10,
+      "department": "patrol",
+      "reliability": 70
+    },
+    "video": {
+      "name": "Video Footage",
+      "description": "Video recording evidence",
+      "analysisTime": 40,
+      "department": "detective",
+      "reliability": 85
+    },
+    "trace": {
+      "name": "Trace Evidence",
+      "description": "Fibers, hair, soil, or other trace materials",
+      "analysisTime": 60,
+      "department": "forensics",
+      "reliability": 80
+    },
+    "ballistic": {
+      "name": "Ballistic Evidence",
+      "description": "Bullets, casings, or firearms",
+      "analysisTime": 90,
+      "department": "forensics",
+      "reliability": 90
+    }
+  },
+  "fingerprint_patterns": [
+    "Loop", "Whorl", "Arch", "Composite", "Accidental"
+  ],
+  "dna_markers": [
+    "D3S1358", "vWA", "FGA", "D8S1179", "D21S11", "D18S51", "D5S818", "D13S317", "D7S820"
+  ],
+  "trace_materials": [
+    "Cotton fiber", "Synthetic fiber", "Human hair", "Animal hair", "Soil sample",
+    "Glass fragment", "Paint chip", "Metal shaving", "Fabric thread", "Carpet fiber"
+  ]
+}

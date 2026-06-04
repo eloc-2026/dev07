@@ -1,0 +1,82 @@
+/**
+ * View-specific styles
+ */
+
+.view-header {
+  margin-bottom: var(--spacing-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.view-content {
+  /* Content area for views */
+}
+
+/* Dispatch View */
+.dispatch-view {
+  /* Dispatch-specific styles */
+}
+
+.crime-card {
+  transition: transform var(--transition-base);
+}
+
+.crime-card:hover {
+  transform: translateY(-2px);
+}
+
+.crime-details {
+  margin-top: var(--spacing-md);
+}
+
+.crime-details p {
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+}
+
+.crime-details strong {
+  color: var(--color-text);
+}
+
+/* Cases View */
+.cases-view {
+  /* Cases-specific styles */
+}
+
+.case-card {
+  border-left: 4px solid var(--color-highlight);
+}
+
+/* Departments View */
+.departments-view {
+  /* Departments-specific styles */
+}
+
+/* Evidence View */
+.evidence-view {
+  /* Evidence-specific styles */
+}
+
+/* Analytics View */
+.analytics-view {
+  /* Analytics-specific styles */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .view-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+  }
+}

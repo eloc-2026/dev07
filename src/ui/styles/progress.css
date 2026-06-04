@@ -1,0 +1,39 @@
+/**
+ * Progress bar styles
+ */
+
+.progress-bar {
+  width: 100%;
+}
+
+.progress-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+  font-weight: var(--font-weight-medium);
+}
+
+.progress-track {
+  width: 100%;
+  height: 8px;
+  background: var(--color-bg-lighter);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-highlight), #5aa3f0);
+  transition: width var(--transition-slow);
+  border-radius: var(--radius-md);
+}
+
+.case-info p {
+  margin-bottom: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.case-info strong {
+  color: var(--color-text);
+}

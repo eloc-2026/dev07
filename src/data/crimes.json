@@ -1,0 +1,164 @@
+{
+  "templates": {
+    "theft": [
+      {
+        "description": "Shoplifting incident at {location}. Suspect fled on foot.",
+        "severity": 1,
+        "evidenceTypes": ["photo", "witness_statement", "document"],
+        "departments": ["patrol", "detective"]
+      },
+      {
+        "description": "Vehicle theft reported in {location} parking lot. Vehicle recovered nearby.",
+        "severity": 2,
+        "evidenceTypes": ["fingerprint", "photo", "witness_statement"],
+        "departments": ["patrol", "forensics"]
+      },
+      {
+        "description": "Burglary at residential property on {location}. Multiple items taken.",
+        "severity": 3,
+        "evidenceTypes": ["fingerprint", "trace", "photo", "witness_statement"],
+        "departments": ["patrol", "detective", "forensics"]
+      }
+    ],
+    "homicide": [
+      {
+        "description": "Body discovered at {location}. Cause of death under investigation.",
+        "severity": 5,
+        "evidenceTypes": ["dna", "fingerprint", "photo", "trace", "ballistic", "witness_statement"],
+        "departments": ["patrol", "detective", "forensics"]
+      },
+      {
+        "description": "Shooting victim found at {location}. Multiple witnesses reported gunshots.",
+        "severity": 5,
+        "evidenceTypes": ["ballistic", "dna", "photo", "witness_statement", "video"],
+        "departments": ["patrol", "detective", "forensics", "swat"]
+      }
+    ],
+    "assault": [
+      {
+        "description": "Physical altercation reported at {location}. Victim sustained minor injuries.",
+        "severity": 2,
+        "evidenceTypes": ["photo", "witness_statement", "document"],
+        "departments": ["patrol"]
+      },
+      {
+        "description": "Aggravated assault at {location}. Victim hospitalized with serious injuries.",
+        "severity": 4,
+        "evidenceTypes": ["dna", "photo", "witness_statement", "document", "weapon"],
+        "departments": ["patrol", "detective", "forensics"]
+      }
+    ],
+    "fraud": [
+      {
+        "description": "Identity theft reported. Victim's financial accounts compromised.",
+        "severity": 3,
+        "evidenceTypes": ["digital", "document", "witness_statement"],
+        "departments": ["detective", "cybercrime"]
+      },
+      {
+        "description": "Credit card fraud at {location}. Unauthorized transactions detected.",
+        "severity": 2,
+        "evidenceTypes": ["digital", "photo", "document", "video"],
+        "departments": ["detective", "cybercrime"]
+      },
+      {
+        "description": "Investment scam targeting elderly victims. Multiple complainants.",
+        "severity": 3,
+        "evidenceTypes": ["digital", "document", "witness_statement"],
+        "departments": ["detective", "cybercrime"]
+      }
+    ],
+    "cybercrime": [
+      {
+        "description": "Ransomware attack on business network. Data encrypted.",
+        "severity": 4,
+        "evidenceTypes": ["digital"],
+        "departments": ["cybercrime"]
+      },
+      {
+        "description": "Phishing scheme targeting local residents. Multiple victims reported.",
+        "severity": 3,
+        "evidenceTypes": ["digital", "document", "witness_statement"],
+        "departments": ["cybercrime", "detective"]
+      },
+      {
+        "description": "Data breach at {location}. Customer information potentially compromised.",
+        "severity": 4,
+        "evidenceTypes": ["digital", "document"],
+        "departments": ["cybercrime"]
+      }
+    ],
+    "drug_offense": [
+      {
+        "description": "Suspected drug transaction observed at {location}. Subjects dispersed upon police arrival.",
+        "severity": 3,
+        "evidenceTypes": ["witness_statement", "photo", "trace"],
+        "departments": ["patrol", "k9", "detective"]
+      },
+      {
+        "description": "Large quantity of narcotics seized during traffic stop near {location}.",
+        "severity": 4,
+        "evidenceTypes": ["trace", "photo", "document", "fingerprint"],
+        "departments": ["patrol", "k9", "detective", "forensics"]
+      },
+      {
+        "description": "Anonymous tip about drug manufacturing operation at {location}.",
+        "severity": 5,
+        "evidenceTypes": ["trace", "photo", "document", "digital", "witness_statement"],
+        "departments": ["detective", "k9", "swat", "forensics"]
+      }
+    ],
+    "burglary": [
+      {
+        "description": "Commercial burglary at {location}. Entry gained through rear door.",
+        "severity": 3,
+        "evidenceTypes": ["fingerprint", "photo", "trace", "video"],
+        "departments": ["patrol", "detective", "forensics"]
+      },
+      {
+        "description": "Series of residential burglaries in {location} area. Similar M.O. observed.",
+        "severity": 4,
+        "evidenceTypes": ["fingerprint", "dna", "photo", "trace", "witness_statement"],
+        "departments": ["patrol", "detective", "forensics", "k9"]
+      }
+    ],
+    "robbery": [
+      {
+        "description": "Armed robbery at {location}. Suspect brandished weapon and fled with cash.",
+        "severity": 4,
+        "evidenceTypes": ["photo", "video", "witness_statement", "fingerprint", "weapon"],
+        "departments": ["patrol", "detective", "forensics", "swat"]
+      },
+      {
+        "description": "Bank robbery at {location}. Suspect passed note to teller demanding money.",
+        "severity": 5,
+        "evidenceTypes": ["photo", "video", "document", "fingerprint", "dna", "witness_statement"],
+        "departments": ["patrol", "detective", "forensics", "swat"]
+      }
+    ]
+  },
+  "motives": [
+    "Financial gain",
+    "Revenge",
+    "Jealousy",
+    "Drug-related",
+    "Gang activity",
+    "Domestic dispute",
+    "Business dispute",
+    "Opportunistic",
+    "Mental instability",
+    "Blackmail"
+  ],
+  "weapons": [
+    "Handgun",
+    "Knife",
+    "Baseball bat",
+    "Crowbar",
+    "Blunt object",
+    "Firearm (unspecified)",
+    "Shotgun",
+    "Rifle",
+    "Tire iron",
+    "None"
+  ]
+}

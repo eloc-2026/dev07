@@ -1,0 +1,22 @@
+{
+  "streets": [
+    "Main Street", "Oak Avenue", "Maple Drive", "Washington Boulevard", "Park Lane", "Cedar Road",
+    "Elm Street", "Pine Avenue", "First Street", "Second Avenue", "Market Street", "Church Road",
+    "River Road", "Hill Street", "Lake Drive", "Forest Avenue", "Sunset Boulevard", "Valley Road",
+    "Highland Avenue", "Broadway", "Lincoln Street", "Madison Avenue", "Jefferson Road", "Adams Street",
+    "Jackson Avenue", "Hamilton Road", "Franklin Street", "Central Avenue", "North Street", "South Street"
+  ],
+  "neighborhoods": [
+    "Downtown", "Midtown", "Uptown", "Riverside", "Lakeside", "Hillside", "Parkview", "Westside",
+    "Eastside", "Northridge", "Southgate", "Garden District", "Historic District", "Industrial District"
+  ],
+  "businessTypes": [
+    "Convenience Store", "Gas Station", "Bank", "Pharmacy", "Restaurant", "Coffee Shop", "Bar",
+    "Retail Store", "Shopping Mall", "Office Building", "Warehouse", "Apartment Complex", "Hotel",
+    "Parking Garage", "Park", "School", "Library", "Hospital", "Gym", "Theater"
+  ],
+  "cities": [
+    "Springfield", "Riverside", "Madison", "Georgetown", "Franklin", "Clinton", "Salem", "Fairview",
+    "Greenwood", "Oakdale", "Brookfield", "Ashland", "Burlington", "Clayton", "Dayton", "Everett"
+  ]
+}

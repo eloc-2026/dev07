@@ -1,0 +1,124 @@
+{
+  "questions": {
+    "opening": [
+      "Can you tell me where you were on the night of {date}?",
+      "How do you know the victim?",
+      "When was the last time you saw the victim?",
+      "Can anyone verify your whereabouts during the time in question?",
+      "What is your relationship to the victim?"
+    ],
+    "alibi": [
+      "Who can confirm your alibi?",
+      "What were you doing between {time1} and {time2}?",
+      "Did anyone see you at {location}?",
+      "Can you provide any documentation of your whereabouts?",
+      "Why should I believe your alibi?"
+    ],
+    "motive": [
+      "Did you have any disputes with the victim?",
+      "Do you have any reason to harm the victim?",
+      "Were you aware of the victim's activities?",
+      "Did you benefit from this crime?",
+      "What were your feelings toward the victim?"
+    ],
+    "opportunity": [
+      "Did you have access to {location}?",
+      "How well do you know the area where the crime occurred?",
+      "Have you been to {location} before?",
+      "Do you own or have access to {item}?",
+      "Were you familiar with the victim's routine?"
+    ],
+    "confrontational": [
+      "We have evidence that contradicts your statement.",
+      "Your story doesn't add up. Want to tell me the truth?",
+      "We know you were there. Why lie about it?",
+      "This will go easier if you cooperate.",
+      "Do you understand the seriousness of this situation?"
+    ],
+    "empathetic": [
+      "I understand this must be difficult for you.",
+      "Help me understand what happened from your perspective.",
+      "Is there anything you want to tell me?",
+      "I can see you're troubled by this. Let's talk about it.",
+      "Sometimes accidents happen. Is that what occurred here?"
+    ]
+  },
+  "responses": {
+    "cooperative_innocent": [
+      "I was at home with my family that night.",
+      "I barely knew the victim.",
+      "I would never hurt anyone.",
+      "I want to help with your investigation.",
+      "I understand. Ask me anything you need to know."
+    ],
+    "cooperative_guilty": [
+      "I... I might have been near there.",
+      "I didn't mean for things to go that far.",
+      "There's something I should tell you.",
+      "It was an accident!",
+      "I can explain everything..."
+    ],
+    "uncooperative_innocent": [
+      "I don't have to answer that.",
+      "I want a lawyer.",
+      "This is harassment!",
+      "I've told you everything I know.",
+      "I wasn't involved in this."
+    ],
+    "uncooperative_guilty": [
+      "I don't know what you're talking about.",
+      "You can't prove anything.",
+      "I want my lawyer now.",
+      "This interview is over.",
+      "You're wasting your time."
+    ],
+    "nervous": [
+      "I... uh... I'm not sure.",
+      "Can I have a moment to think?",
+      "I'm trying to remember...",
+      "This is all so confusing.",
+      "I really don't know."
+    ],
+    "defensive": [
+      "Why are you accusing me?",
+      "I haven't done anything wrong!",
+      "You should be looking for the real criminal!",
+      "This is ridiculous!",
+      "I'm being set up!"
+    ]
+  },
+  "techniques": {
+    "empathetic": {
+      "description": "Build rapport and trust with the subject",
+      "cooperationBonus": 15,
+      "credibilityBonus": 5,
+      "riskLevel": "low"
+    },
+    "aggressive": {
+      "description": "Apply pressure and confrontation",
+      "cooperationPenalty": 15,
+      "credibilityPenalty": 10,
+      "riskLevel": "high",
+      "note": "Risk of false confession"
+    },
+    "good_cop": {
+      "description": "Be friendly and understanding",
+      "cooperationBonus": 15,
+      "credibilityBonus": 5,
+      "riskLevel": "low"
+    },
+    "bad_cop": {
+      "description": "Be stern and intimidating",
+      "cooperationPenalty": 10,
+      "credibilityPenalty": 5,
+      "riskLevel": "medium"
+    },
+    "tactical": {
+      "description": "Use strategic questioning and evidence presentation",
+      "cooperationBonus": 5,
+      "credibilityBonus": 10,
+      "riskLevel": "medium",
+      "skillRequired": 70
+    }
+  }
+}

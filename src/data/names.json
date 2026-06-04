@@ -1,0 +1,31 @@
+{
+  "firstNames": {
+    "male": [
+      "James", "Michael", "Robert", "John", "David", "William", "Richard", "Joseph", "Thomas", "Christopher",
+      "Daniel", "Matthew", "Anthony", "Mark", "Donald", "Steven", "Andrew", "Kenneth", "Joshua", "Kevin",
+      "Brian", "George", "Timothy", "Ronald", "Edward", "Jason", "Jeffrey", "Ryan", "Jacob", "Gary",
+      "Nicholas", "Eric", "Jonathan", "Stephen", "Larry", "Justin", "Scott", "Brandon", "Benjamin", "Samuel"
+    ],
+    "female": [
+      "Mary", "Patricia", "Jennifer", "Linda", "Barbara", "Elizabeth", "Susan", "Jessica", "Sarah", "Karen",
+      "Lisa", "Nancy", "Betty", "Margaret", "Sandra", "Ashley", "Kimberly", "Emily", "Donna", "Michelle",
+      "Carol", "Amanda", "Dorothy", "Melissa", "Deborah", "Stephanie", "Rebecca", "Sharon", "Laura", "Cynthia",
+      "Kathleen", "Amy", "Angela", "Shirley", "Anna", "Brenda", "Pamela", "Emma", "Nicole", "Helen"
+    ]
+  },
+  "lastNames": [
+    "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez",
+    "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", "Moore", "Jackson", "Martin",
+    "Lee", "Thompson", "White", "Harris", "Sanchez", "Clark", "Ramirez", "Lewis", "Robinson", "Walker",
+    "Young", "Allen", "King", "Wright", "Scott", "Torres", "Nguyen", "Hill", "Flores", "Green",
+    "Adams", "Nelson", "Baker", "Hall", "Rivera", "Campbell", "Mitchell", "Carter", "Roberts", "Gomez"
+  ],
+  "occupations": [
+    "Accountant", "Teacher", "Nurse", "Sales Representative", "Software Developer", "Manager", "Cashier",
+    "Administrative Assistant", "Customer Service Representative", "Mechanic", "Electrician", "Plumber",
+    "Chef", "Waiter", "Bartender", "Retail Worker", "Delivery Driver", "Construction Worker", "Janitor",
+    "Security Guard", "Lawyer", "Doctor", "Engineer", "Architect", "Real Estate Agent", "Photographer",
+    "Writer", "Artist", "Musician", "Student", "Unemployed", "Retired", "Business Owner", "Consultant",
+    "Analyst", "Designer", "Marketing Specialist", "HR Manager", "Pharmacist", "Dentist"
+  ]
+}
